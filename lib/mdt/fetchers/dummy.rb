@@ -13,6 +13,7 @@ module MDT
       def fetch(key, options = {})
         case key
         when 'dummy'
+          puts "Fetchers: dummy, fetcher: dummy, fetch, options: #{options.to_s}"
           0
         end
       end

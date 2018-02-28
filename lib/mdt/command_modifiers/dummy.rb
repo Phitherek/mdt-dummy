@@ -13,7 +13,8 @@ module MDT
       def prepend(key, cmd, options = {})
         case key
         when 'dummy'
-          0
+          puts "CommandModifiers: dummy, modifier: dummy, prepend, cmd: #{cmd}, options: #{options.to_s}"
+          cmd
         end
       end
     end

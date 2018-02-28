@@ -13,6 +13,7 @@ module MDT
       def mkdir(key, options = {})
         case key
         when 'dummy'
+          puts "DirectoryChoosers: dummy, chooser: dummy, mkdir, options: #{options.to_s}"
           0
         end
       end
@@ -20,6 +21,7 @@ module MDT
       def cd(key, options = {})
         case key
         when 'dummy'
+          puts "DirectoryChoosers: dummy, chooser: dummy, cd, options: #{options.to_s}"
           0
         end
       end
@@ -27,6 +29,7 @@ module MDT
       def rm(key, options = {})
         case key
         when 'dummy'
+          puts "DirectoryChoosers: dummy, chooser: dummy, rm, options: #{options.to_s}"
           0
         end
       end
