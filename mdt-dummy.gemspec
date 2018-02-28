@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors = ['Phitherek_']
   s.email = ['phitherek@gmail.com']
   s.files = Dir['lib/**/*.rb'] + Dir['bin/*']
-  s.homepage = 'https://rubygems.org/gems/mdt-dummy'
+  s.homepage = 'https://github.com/Phitherek/mdt-dummy'
   s.license = 'MIT'
   s.add_runtime_dependency 'mdt-core', '~> 0.0'
 end
