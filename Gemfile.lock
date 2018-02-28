@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    mdt-dummy (0.0.1)
+      mdt-core (~> 0.0)
+
+PATH
+  remote: /home/phitherek/workspace/priv/mdt-core
+  specs:
+    mdt-core (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mdt-core!
+  mdt-dummy!
+
+BUNDLED WITH
+   1.16.1
