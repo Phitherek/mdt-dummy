@@ -13,7 +13,7 @@ module MDT
 
       # A method that defines keys for available fetchers.
       # Returns:
-      # * ["dummy"]
+      # * +["dummy"]+
       def self.subkeys
         ['dummy']
       end

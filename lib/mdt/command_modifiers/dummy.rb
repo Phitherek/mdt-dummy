@@ -13,7 +13,7 @@ module MDT
 
       # A method that defines keys for available command modifiers.
       # Returns:
-      # * ["dummy"]
+      # * +["dummy"]+
       def self.subkeys
         ['dummy']
       end
