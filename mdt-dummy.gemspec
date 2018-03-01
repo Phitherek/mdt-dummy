@@ -12,4 +12,5 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/Phitherek/mdt-dummy'
   s.license = 'MIT'
   s.add_runtime_dependency 'mdt-core', '~> 0.0'
+  s.add_development_dependency 'rspec', '~> 3.7'
 end
