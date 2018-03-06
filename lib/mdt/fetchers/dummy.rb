@@ -23,7 +23,9 @@ module MDT
       # * +key+ - a key identifier of a particular fetcher
       # * +options+ - options for fetchers as a Hash
       # Returns:
-      # * 0
+      # * Exit code for fetcher +key+
+      # More information:
+      # * See README.md for detailed description of fetchers
       def fetch(key, options = {})
         case key
         when 'dummy'

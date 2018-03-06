@@ -24,7 +24,9 @@ module MDT
       # * +command+ - a command to apply command modifier on
       # * +options+ - options for modifier as a Hash
       # Returns:
-      # * Unmodified value of +command+
+      # * A value of +command+ modified with +key+ command modifier
+      # More information:
+      # * See README.md for detailed description of command modifiers
       def prepend(key, cmd, options = {})
         case key
         when 'dummy'

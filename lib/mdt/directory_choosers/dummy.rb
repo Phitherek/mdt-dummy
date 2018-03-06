@@ -23,7 +23,9 @@ module MDT
       # * +key+ - a key identifier of a particular directory chooser
       # * +options+ - options for directory chooser as a Hash
       # Returns:
-      # * 0
+      # * Exit code for directory chooser +key+
+      # More information:
+      # * See README.md for detailed description of directory choosers
       def mkdir(key, options = {})
         case key
         when 'dummy'
@@ -37,7 +39,9 @@ module MDT
       # * +key+ - a key identifier of a particular directory chooser
       # * +options+ - options for directory chooser as a Hash
       # Returns:
-      # * 0
+      # * Exit code for directory chooser +key+
+      # More information:
+      # * See README.md for detailed description of directory choosers
       def cd(key, options = {})
         case key
         when 'dummy'
@@ -51,7 +55,9 @@ module MDT
       # * +key+ - a key identifier of a particular directory chooser
       # * +options+ - options for directory chooser as a Hash
       # Returns:
-      # * 0
+      # * Exit code for directory chooser +key+
+      # More information:
+      # * See README.md for detailed description of directory choosers
       def rm(key, options = {})
         case key
         when 'dummy'

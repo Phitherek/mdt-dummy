@@ -24,7 +24,9 @@ module MDT
       # * +modifiers+ - an array of command modifier configurations - each configuration is a Hash that includes modifier type and modifier options
       # * +options+ - options for command as a Hash
       # Returns:
-      # * 0
+      # * Exit code of command +key+
+      # More information:
+      # * See README.md for detailed description of commands
       def execute(key, modifiers = [], options = {})
         case key
         when 'dummy'
